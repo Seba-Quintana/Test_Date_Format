@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\seba8\\Desktop\\prog2\\tareas\\Debug_Test\\Test_Date_Format\\src\\Program\\Program.csproj": {}
+    "C:\\Users\\seba8\\Desktop\\prog2\\tareas\\Debug_Test\\Test_Date_Format\\src\\program\\Program.csproj": {}
   },
   "projects": {
     "C:\\Users\\seba8\\Desktop\\prog2\\tareas\\Debug_Test\\Test_Date_Format\\src\\Library\\Library.csproj": {
@@ -56,14 +56,14 @@
         }
       }
     },
-    "C:\\Users\\seba8\\Desktop\\prog2\\tareas\\Debug_Test\\Test_Date_Format\\src\\Program\\Program.csproj": {
+    "C:\\Users\\seba8\\Desktop\\prog2\\tareas\\Debug_Test\\Test_Date_Format\\src\\program\\Program.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\seba8\\Desktop\\prog2\\tareas\\Debug_Test\\Test_Date_Format\\src\\Program\\Program.csproj",
+        "projectUniqueName": "C:\\Users\\seba8\\Desktop\\prog2\\tareas\\Debug_Test\\Test_Date_Format\\src\\program\\Program.csproj",
         "projectName": "Program",
-        "projectPath": "C:\\Users\\seba8\\Desktop\\prog2\\tareas\\Debug_Test\\Test_Date_Format\\src\\Program\\Program.csproj",
+        "projectPath": "C:\\Users\\seba8\\Desktop\\prog2\\tareas\\Debug_Test\\Test_Date_Format\\src\\program\\Program.csproj",
         "packagesPath": "C:\\Users\\seba8\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\seba8\\Desktop\\prog2\\tareas\\Debug_Test\\Test_Date_Format\\src\\Program\\obj\\",
+        "outputPath": "C:\\Users\\seba8\\Desktop\\prog2\\tareas\\Debug_Test\\Test_Date_Format\\src\\program\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\seba8\\AppData\\Roaming\\NuGet\\NuGet.Config"

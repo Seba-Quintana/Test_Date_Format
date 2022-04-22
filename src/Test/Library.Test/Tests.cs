@@ -18,18 +18,25 @@ public class Tests
     [Test]
     public void Test2()
     {
-        Assert.Pass();
+        string dia = "05/12/2001";
+        string actual = Program.ChangeFormat(dia);
+        string expected = "2001-12-05";
+        Assert.AreEqual(expected, actual);
     }
 
     [Test]
     public void Test3()
     {
-        Assert.Pass();
+        string dia = "00/00/";
+        string actual = Program.ChangeFormat(dia);
+        string expected = "-00-00";
+        Assert.AreEqual(expected, actual);
     }
 
     [Test]
     public void Test4()
     {
+
         Assert.Pass();
     }
 
