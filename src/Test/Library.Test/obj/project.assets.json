@@ -882,6 +882,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.dll": {}
+        }
       }
     }
   },
@@ -3844,10 +3854,16 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Library/1.0.0": {
+      "type": "project",
+      "path": "../../Library/Library.csproj",
+      "msbuildProject": "../../Library/Library.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Library >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
       "NUnit >= 3.13.2",
       "NUnit3TestAdapter >= 4.0.0",
@@ -3878,7 +3894,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\seba8\\Desktop\\prog2\\tareas\\Debug_Test\\Test_Date_Format\\src\\Library\\Library.csproj": {
+              "projectPath": "C:\\Users\\seba8\\Desktop\\prog2\\tareas\\Debug_Test\\Test_Date_Format\\src\\Library\\Library.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
