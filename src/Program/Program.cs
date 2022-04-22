@@ -20,13 +20,16 @@ namespace DateFormat
                 return year.Substring(6) + "-" + year.Substring(3, 2) + "-" + year.Substring(0, 2);
             }
 
-            public static String ChangeFormat2(String year)
+            public static String ChangeFormat2(String year, String format)
             {
+                if (year == "")
+                {
+                    return "";
+                }
                 string[] date = year.Split("/");
                 string changeDay = date[0];
                 string changeMonth = date[1];
                 string changeYear = date[2];
-                string? format = Console.ReadLine();
                 if (format == "DD-MM-YYYY")
                 {
                     date[0] = changeDay;
@@ -69,9 +72,14 @@ namespace DateFormat
 
             public static void Main(string[] args)
             {
-                string testDate = "10/11/1977";
+                //string testDate = "10/11/1977";
                 //Console.WriteLine("{0} se convierte a: {1} ", testDate, ChangeFormat(testDate));
-                Console.WriteLine("{0} se convierte a: {1}", testDate, ChangeFormat2(testDate));
+                string? testDate2 = Console.ReadLine();
+                string? format = Console.ReadLine();
+                if ((testDate2 != null) && (format != null))
+                {
+                    Console.WriteLine("{0} se convierte a: {1}", testDate2, ChangeFormat2(testDate2, format));
+                }
             }
     }
 }
