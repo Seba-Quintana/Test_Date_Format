@@ -100,3 +100,6 @@ C:\Users\seba8\Desktop\prog2\tareas\Debug_Test\Test_Date_Format\src\Test\Library
 C:\Users\seba8\Desktop\prog2\tareas\Debug_Test\Test_Date_Format\src\Test\Library.Test\obj\Debug\net6.0\Library.Test.pdb
 C:\Users\seba8\Desktop\prog2\tareas\Debug_Test\Test_Date_Format\src\Test\Library.Test\obj\Debug\net6.0\Library.Test.genruntimeconfig.cache
 C:\Users\seba8\Desktop\prog2\tareas\Debug_Test\Test_Date_Format\src\Test\Library.Test\obj\Debug\net6.0\ref\Library.Test.dll
+C:\Users\seba8\Desktop\prog2\tareas\Debug_Test\Test_Date_Format\src\Test\Library.Test\bin\Debug\net6.0\Library.deps.json
+C:\Users\seba8\Desktop\prog2\tareas\Debug_Test\Test_Date_Format\src\Test\Library.Test\bin\Debug\net6.0\Library.runtimeconfig.json
+C:\Users\seba8\Desktop\prog2\tareas\Debug_Test\Test_Date_Format\src\Test\Library.Test\bin\Debug\net6.0\Library.exe
